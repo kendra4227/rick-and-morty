@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import axios from "axios";
 import CharacterCard from "./components/CharacterCard.js";
+import NavBar from "./components/Navbar.js";
 // step 1: build out components and think about layout
 // step 2: install axios in your rick-n-morty file and import it
 // step 3: change app to a class component - use constructor and super
@@ -38,8 +39,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <NavBar/>
         <h1>Rick n' Morty App</h1>
-        <img src="https://www.freeiconspng.com/uploads/rick-and-morty-icon-png-26.png" alt="rick and morty icon" />
+        <img className="rick-n-morty-icon" src="https://www.freeiconspng.com/uploads/rick-and-morty-icon-png-26.png" alt="rick and morty icon" />
         {/* going to create one prop with all of the character data that is from our API that we now set to state */}
         <CharacterCard character_data={this.state.characters}/>
       </div>
