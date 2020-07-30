@@ -1,6 +1,9 @@
 # rick-and-morty
 a fun little project that I am going to walk you through ♥️
 
+## YOUTUBE TUTORIAL 👇
+https://youtu.be/c8ODOT5aT-k
+
 # TO GET STARTED: 
 * cd into your project - `cd rick-and-morty/`
 * npm install - `npm i`
